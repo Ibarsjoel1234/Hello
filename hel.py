@@ -2,7 +2,7 @@ a=int(input())
 
 b=0
 
-while(b <= a):
+while(b < a):
     
 	b=b+1
     
