@@ -27,7 +27,7 @@ elif c=="3":
       print("Throw exception: a")
   elif b.isalpha():
       print("Throw expection: b")
-  if b == 0:
+  elif b == "0":
       print("Infinite")
   else:
       a=Decimal(a)
