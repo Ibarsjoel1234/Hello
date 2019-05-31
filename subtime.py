@@ -1,0 +1,5 @@
+l1=list(map(int,input().split()))
+l2=list(map(int,input().split())) 
+hh=abs(l1[0]-l2[0])
+mm=abs(l1[1]-l2[1])
+print(hh,mm)
