@@ -1,5 +1,5 @@
 a=input()
 if (a.isnumeric()==True):
-  print("The give string is numeric")
+  print("yes")
 else:
-  print("The given string is not numeric ")
+  print("no")
