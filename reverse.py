@@ -1,2 +1,2 @@
-a=input()[::-1]
-print(a)
+aaa=input()[::-1]
+print(aaa)
