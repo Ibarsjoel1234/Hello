@@ -1,3 +1,4 @@
-aaa=input()[::-1]
-print(aaa)
+aaa=input().split()
+bbb=sorted(aaa)
+print(bbb)
 
