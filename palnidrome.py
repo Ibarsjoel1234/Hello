@@ -1,7 +1,6 @@
-n = int(input())
-aStr = str(n)
-nRev = aStr[-1 : : -1]
-if nStr == nRev:
+aaa=input()
+ax=aaa[::-1]
+if(aaa==ax):
     print("yes")
 else:
     print("no")
