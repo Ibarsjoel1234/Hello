@@ -1,9 +1,7 @@
-starts,ends=input().split()
 
-starts=int(starts)+1
-
-ends=int(ends)
-
-for num in range(starts,ends): 
-    if(num%2 != 0): 
-        print(num, ends=" ")
+star,en=input().split()
+star=int(star)+1
+en=int(en)
+for num in range(star,en):
+  if(num%2 !=0):
+    print(num,en=" ")
