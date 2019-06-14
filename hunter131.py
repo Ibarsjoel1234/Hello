@@ -2,7 +2,7 @@ no=int(input())
 num=list(map(int,input().split()))
 at=[]
 while len(num)!=0:
-    if len(num)!>1:
+    if len(num)>1:
         at.append(max(num))
         at.append(min(num))
         num.remove(max(num))
