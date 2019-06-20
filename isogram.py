@@ -4,7 +4,7 @@ for valu in val:
     if  valu not in no:
         no.append(valu)
 if(val==valu):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
     
