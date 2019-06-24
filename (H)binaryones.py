@@ -1,3 +1,3 @@
 val = input()
-a = len(val)
-print(a)
+b = len(val)
+print(b)
