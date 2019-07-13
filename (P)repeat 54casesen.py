@@ -1,5 +1,7 @@
 a, b = map(str,input().split())
-if a == b:
+c = b.lower()
+d = a.lower()
+if d == c:
     print("yes")
 else:
     print("no")
