@@ -1,3 +1,4 @@
+import sys
 def cll_val():
     user,val = map(str,input().split())
     if user == val:
@@ -18,3 +19,4 @@ print("Start Play")
 cll_val()
 print("Play again")
 cll_val()
+sys.exit()
