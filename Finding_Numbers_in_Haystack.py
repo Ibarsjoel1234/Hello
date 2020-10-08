@@ -16,7 +16,7 @@ totalval = 0 # initally setting a value to 0 (total sum)
 
 for line in fread: 
     numlist = re.findall("[0-9]+",line) # creating a variable called numlist and using the regular expression keyword ("[0-9]+",line) extract the number that 
-                                            available in file 
+                                           # available in file 
     if len(numlist) > 0:
         for item in numlist:
             totalval = totalval + int(item) #sum the numbers are that present in numlist
